@@ -1,0 +1,140 @@
+.top-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainimg-container {
+  background-image: url("../../assets/main.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+  right: -25px;
+  left: -8px;
+}
+.top-col{
+  height: 500px;
+}
+.vector6 {
+  width: 120px;
+  height: 132px;
+  position: absolute;
+  top: -56px;
+  left: 240px;
+  mix-blend-mode: multiply;
+}
+
+.main-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70.19px;
+  letter-spacing: -1px;
+  text-align: left;
+  width: 526px;
+  height: 254px;
+  position: relative;
+  top:80px;
+  left: 120px;
+  margin-top: 25px;
+}
+
+.span-price {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70.19px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffbb00;
+}
+
+.vector7-container {
+  background-image: url("../../assets/Vector7.jpg");
+  background-size: cover;
+  width: 100%;
+  /* max-width: 300px; */
+  height: 743px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 300px;
+left: -30px;
+}
+
+.coworkingvideo {
+  width: 388px;
+  height: 388px;
+  background: transparent;
+  mix-blend-mode: multiply;
+  position: relative;
+  top: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom:100px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .vector7-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    bottom:350px;
+    left:120px;
+    opacity: 0.5px;
+    order:1;
+  }
+
+  .coworkingvideo {
+    width: 320px;
+    height: 420px;
+    position: relative;
+    top: 10px;
+    }
+
+  .vector6 {
+    display: none;
+  }
+  .top-col{
+    height: 450px;
+  }
+  .mainimg-container {
+    height: 166px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order:2;
+    position: relative;
+    top:700px;
+  }
+
+  .main-heading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    width: 400px;
+    height: 62px;
+    position: absolute;
+    bottom: 590px;
+    top: -5px;
+    right: 200px;
+    text-align: center;
+  }
+
+  .span-price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+  }
+}
